@@ -1,2 +1,3 @@
 # BredCash
-BredCash
+Simple Auction Application
+
