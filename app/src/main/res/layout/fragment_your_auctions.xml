@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".yourAuctionsFragment"
+    >
+
+
+    <Button
+        android:id="@+id/YourAuctions_yourAuctionsButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/YourAuctions"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:background="@drawable/buttons_background"
+        android:shadowColor="#FFFFFF"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+
+        />
+    <Button
+        android:id="@+id/YourAuctions_YourOfferWinningButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/YourAuctions_yourAuctionsButton"
+        android:text="@string/YourAuctions_YourOfferWinning"
+        android:layout_marginTop="20dp"
+
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:background="@drawable/buttons_background"
+        android:shadowColor="#FFFFFF"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+
+        />
+    <ListView
+        android:id="@+id/YourAuctions_YourOfferWinningListView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/YourAuctions_yourAuctionsButton"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:id="@+id/yourAuctions_TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/noAuctionsAvailable"
+        android:layout_centerInParent="true"
+        />
+</RelativeLayout>

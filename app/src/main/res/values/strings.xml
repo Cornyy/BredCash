@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">BredCash</string>
+    <string name="Login">Login</string>
+    <string name="Registration">Registration</string>
+    <string name="bottomNav_home">Home</string>
+    <string name="bottomNav_account">Account</string>
+    <string name="bottomNav_addProduct">Add product</string>
+    <string name="Register">Register</string>
+    <string name="TopUpAccount">Top up your account</string>
+    <string name="TopUpAccountDialogText">how much money do you want to top up?</string>
+    <string name="recharge">OK</string>
+    <string name="titleHint">enter the name of the item</string>
+    <string name="descriptionHint">enter a description of the item</string>
+    <string name="selectImage">Select image</string>
+    <string name="noPhotoSelected">No photo selected</string>
+    <string name="addProductButton">Add product</string>
+    <string name="duration">Duration :</string>
+    <string name="zero">0</string>
+    <string name="days">days</string>
+    <string name="price">price :</string>
+    <string name="actuallyPrice">Actually price :</string>
+    <string name="bidTheOffer">Bid the offer</string>
+    <string name="bidTheOfferDialogYourPrice">Your price</string>
+    <string name="bidTheOfferDialogButton">Accept</string>
+    <string name="bottomNav_YourAuctions">Your auctions</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="YourAuctions">Your auctions</string>
+    <string name="YourAuctions_winning">Auctions where you are winning</string>
+    <string name="YourAuctions_YourOfferWinning">Your offer winning</string>
+    <string name="loginHint">Enter your nick</string>
+    <string name="PasswordHint">Enter your password</string>
+    <string name="noAuctionsAvailable">No auctions available</string>
+    <string-array name="yourAuctionsArray">
+        <item>Your auctions</item>
+        <item>Your offer winning</item>
+    </string-array>
+</resources>

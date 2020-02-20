@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AuctionDetailsActivity">
+
+    <TextView
+        android:id="@+id/auctionDetails_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:textColor="@color/textColor"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        />
+
+    <ImageView
+        android:id="@+id/auctionDetails_image"
+        android:layout_width="200sp"
+        android:layout_height="200sp"
+        android:layout_below="@id/auctionDetails_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        />
+
+    <TextView
+        android:id="@+id/auctionDetails_description"
+        android:background="@android:color/transparent"
+        android:inputType="textMultiLine"
+        android:lines="8"
+        android:minLines="7"
+        android:gravity="center|left"
+        android:maxLines="12"
+        android:textColor="@color/textColor"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:scrollbars="vertical"
+        android:justificationMode="inter_word"
+        android:layout_below="@+id/auctionDetails_image"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        />
+
+    <TextView
+        android:id="@+id/auctionDetails_actuallyPriceTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/actuallyPrice"
+        android:layout_below="@+id/auctionDetails_description"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textColor="@color/textColor"
+        />
+    <Button
+        android:id="@+id/auctionDetails_bidTheOffer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/auctionDetails_actuallyPriceTextView"
+        android:layout_centerHorizontal="true"
+        android:text="@string/bidTheOffer"
+        android:textColor="@color/textColor"
+        android:textSize="20sp"
+        android:background="@drawable/buttons_background"
+        android:shadowColor="#FFFFFF"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_marginTop="30dp"
+        />
+
+</RelativeLayout>
