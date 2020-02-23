@@ -1,3 +1,4 @@
 # BredCash
-Simple Auction Application
+Simple Auction Application.  
+Web Service : https://github.com/Cornyy/BredCashWebService
 
